@@ -1,12 +1,11 @@
-**New things are happening!** Check out the [blendid](https://github.com/vigetlabs/gulp-starter/tree/blendid) branch for a preview! 🎁
-
---
-
 # ![NATIVE TEST](extras/demo/src/images/logo.png)
 
 Here is the Native VML frontend developer test. Please have a look through and let me know what you think.. I also took a stab at the javascript test and incorporated it as a subtle background in the test. I had a few other improvements I wanted to add to this test but I have run out of time and don't want to delay it any longer.
 
-Kind Reggards - James Cells
+Kind Regards
+James Cells
+061 882 6359
+hello@elektronika.co.za
 
 Features | Tools Used
 ------ | -----

@@ -218,5 +218,12 @@
   </div>
 
 </div>
+<div class="clearfix">&nbsp;</div>
+
+<div class="col-xs-12 col-md-3 flex">
+  <a href="javascript:;" class="manageBtn" style="margin-left: -15px;">Manage tasks</a>
+</div>
+
+<div class="clearfix">&nbsp;</div>
 </section>
 <!-- end monthly calendar -->
