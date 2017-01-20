@@ -1,0 +1,366 @@
+#timeDate {
+  .time {
+
+  }
+  h3 {
+  font-family: Roboto;
+	font-size: 17px;
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #97acbb;
+  }
+  h4 {
+    width: 49px;
+  	height: 13px;
+  	font-family: Roboto;
+  	font-size: 17px;
+  	font-weight: 500;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: normal;
+  	letter-spacing: normal;
+  	color: #97acbb;
+  }
+}
+
+.green-btm-bdr {
+  height: 3px;
+  border-bottom: 3px solid #91eebc;
+  padding-top: 26px;
+  padding-bottom: 26px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.cal-time {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 19px;
+	font-weight: normal;
+	font-style: italic;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #ebeff0;
+  margin-top: 26px;
+  padding-bottom: 15px;
+}
+
+#clockdate {
+  margin-top: 85px;
+  font-family: 'Roboto', sans-serif;
+	font-size: 21px;
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #97acba;
+}
+
+#clocktime {
+  margin-top: 17px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 90px;
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #ebeff0;
+}
+
+.flex {
+  display: -webkit-flex;
+  display: flex;
+}
+
+.fluid {
+	flex: 1;
+}
+
+.section-hdr {
+  font-family: 'Roboto', sans-serif;
+	font-size: 21px;
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #97acba;
+  margin-bottom: 0px;
+}
+
+.no-left-padding {
+  padding-left: 0px;
+}
+
+.manageBtn {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 100%;
+  padding: 12px 28px;
+  border: solid 1px #97acba;
+  font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.56;
+	letter-spacing: normal;
+	text-align: center;
+	color: #97acba;
+  flex: 1;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.manageBtn a {
+	color: #97acba;
+}
+
+.manageBtn:hover {
+  border: solid 1px #91eebc;
+	color: #91eebc;
+  text-decoration: none;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.op-hover {
+  opacity: 1;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.op-hover:hover {
+  opacity: 0.6;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+#monthly-calendar {
+  padding-left: 0px;
+  margin-top: 24px;
+}
+
+#monthly-calendar li
+{
+  display: inline;
+  list-style-type: none;
+}
+
+#monthly-calendar li a
+{
+  display: inline;
+  list-style-type: none;
+  padding-right: 5px;
+  opacity: 0.5;
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: right;
+	color: rgba(235, 239, 240, 0.5);
+}
+
+#monthly-calendar li.active a
+{
+	font-size: 25px;
+  color: #fff;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.hdr-task {
+  font-family: 'Roboto', sans-serif;
+	font-size: 21px;
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #ebeff0;
+}
+
+.txt-task {
+  font-family: 'Roboto', sans-serif;
+	font-size: 13px;
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #ebeff0;
+}
+
+.badge {
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: #777;
+    border-radius: 10px;
+}
+
+.badge {
+    position: relative;
+    left: -14px;
+    bottom: -37px;
+}
+.badge.bubble-only {
+    height: 10px;
+    width: 10px;
+    display: block;
+    padding: 0;
+}
+
+.badge-outstanding {
+    background-color: #4491b5;
+    color: #ffffff;
+}
+
+.badge-completed {
+    background-color: #91eebc;
+    color: #ffffff;
+}
+
+.txt-status-hdr {
+  font-family: 'Roboto', sans-serif;
+  font-size: 21px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #97acba;
+}
+
+.txt-status-completed {
+  font-family: 'Roboto', sans-serif;
+  font-size: 37px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #91eebc;
+}
+
+.txt-status-outstanding {
+  font-family: 'Roboto', sans-serif;
+  font-size: 37px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4491b5;
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+  .txt-status-hdr {
+  	text-align: left;
+  }
+
+  .txt-status-completed {
+  	text-align: left;
+  }
+
+  .txt-status-outstanding {
+  	text-align: left;
+  }
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+  .txt-status-hdr {
+    text-align: left;
+  }
+
+  .txt-status-completed {
+    text-align: left;
+  }
+
+  .txt-status-outstanding {
+    text-align: left;
+  }
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+  .txt-status-hdr {
+    text-align: left;
+  }
+
+  .txt-status-completed {
+    text-align: left;
+  }
+
+  .txt-status-outstanding {
+    text-align: left;
+  }
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+  .txt-status-hdr {
+    text-align: right;
+  }
+
+  .txt-status-completed {
+    text-align: right;
+  }
+
+  .txt-status-outstanding {
+    text-align: right;
+  }
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+  .txt-status-hdr {
+    text-align: right;
+  }
+
+  .txt-status-completed {
+    text-align: right;
+  }
+
+  .txt-status-outstanding {
+    text-align: right;
+  }
+
+}

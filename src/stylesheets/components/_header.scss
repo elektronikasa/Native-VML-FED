@@ -1,0 +1,76 @@
+header {
+  margin-top: 35px;
+
+  &__greeting {
+    font-size: 17px;
+    font-weight: 500;
+    color: #97acbb;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  h3 {
+    @include roboto;
+    color: #ebeff0;
+    font-size: 17px;
+  	font-weight: 500;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: normal;
+  	letter-spacing: normal;
+  }
+
+  h2 {
+    @include roboto;
+    font-size: 30px;
+  	font-weight: 300;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: normal;
+  	letter-spacing: normal;
+  	color: #ebeff0;
+  }
+
+}
+
+.greeting-bdr {
+  height: 2px;
+  background-color: #97acbb;
+  display: block;
+  margin-top: 29px;
+  margin: 0 auto;
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+  #logo {
+    float: left;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+  #logo {
+    float: left;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+  #logo {
+    float: right;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+  #logo {
+    float: right;
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+  #logo {
+    float: right;
+  }
+}

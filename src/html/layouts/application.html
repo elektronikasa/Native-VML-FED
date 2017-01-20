@@ -1,0 +1,71 @@
+{% from 'macros/helpers.html' import sprite %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{% block title %}{{ title }}{% endblock %}</title>
+    <link rel="stylesheet" href="stylesheets/app.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- social media stuff -->
+    <meta property="fb:app_id" content="189541064455755" />
+    <meta property="fb:pages" content="VML" />
+    <meta property="og:site_name" content="VML" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Home" />
+    <meta property="og:url" content="https://www.vml.com/native-vml/home" />
+    <meta property="og:description" content="Across six continents with different languages, diverse cultures and ever-evolving technology, the universal truth is we have a fundamental human need to connect with one another. As a full-service marketing agency with offices around the globe, we help brands fulfill that need and make them truly matter to people." />
+    <meta property="og:image" content="https://www.vml.com/native-vml/sites/vml.south-africa/files/styles/og_image/public/hero/black_-_hero_-_native.jpg?itok=ywUfo-c7" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@VML" />
+    <meta name="twitter:title" content="Home" />
+    <meta name="twitter:url" content="https://www.vml.com/native-vml/home" />
+    <meta name="twitter:description" content="Across six continents with different languages, diverse cultures and ever-evolving technology, the universal truth is we have a fundamental human need to connect with one another. As a full-service marketing agency with offices around the globe, we help brands fulfill that need and make them truly matter to people." />
+    <meta name="twitter:image" content="https://www.vml.com/native-vml/sites/vml.south-africa/files/styles/og_image/public/hero/black_-_hero_-_native.jpg?itok=ywUfo-c7" />
+
+    {% include "shared/app-icons.html" %}
+    {% block head %}{% endblock %}
+    <!-- <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>-->
+    <script type="text/javascript">
+      !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="4.0.0";
+      analytics.load("rryAWtoQysSzZGb10VYvjlu1QUtsK1Rb");
+      analytics.page();
+      analytics.track('Logo Btn', {
+        location: 'header',
+        type: 'a'
+      });
+      }}();
+    </script>
+  </head>
+  <body>
+
+    <!-- particles background -->
+    <div id="particles-js"></div>
+
+    <!-- main container -->
+    <div class="container">
+    {% block content %}{% endblock %}
+    </div>
+
+    {% block javascript %}{% endblock %}
+    <script rel="preload" src="javascripts/app.js"></script>
+    {% block pagescripts %}{% endblock %}
+
+    <!-- start Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-90596964-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    <!-- end Google Analytics -->
+
+  </body>
+</html>

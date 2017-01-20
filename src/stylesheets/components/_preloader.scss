@@ -1,0 +1,44 @@
+#particles-js {
+  width: 100vw;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: block;
+  opacity: 0.2;
+
+  -webkit-animation: fadein 10s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 10s; /* Firefox < 16 */
+  -ms-animation: fadein 10s; /* Internet Explorer */
+  -o-animation: fadein 10s; /* Opera < 12.1 */
+  animation: fadein 10s;
+}
+
+@keyframes fadein {
+    from { opacity: 1; }
+    to   { opacity: 0.3; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 1; }
+    to   { opacity: 0.3; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 1; }
+    to   { opacity: 0.3; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 1; }
+    to   { opacity: 0.3; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 1; }
+    to   { opacity: 0.3; }
+}

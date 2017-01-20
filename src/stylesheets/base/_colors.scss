@@ -1,0 +1,23 @@
+@mixin color-primary {
+    color: #ebeff0;
+}
+
+@mixin color-secondary {
+    color: #97acbb;
+}
+
+@mixin color-teriary {
+    color: #ebeff0;
+}
+
+@mixin color-info {
+    color: #96edb7;
+}
+
+@mixin color-info-alt {
+    color: #4690b8;
+}
+
+.color-light {
+  color: #ebeff0;
+}

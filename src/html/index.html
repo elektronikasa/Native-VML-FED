@@ -1,0 +1,48 @@
+{#
+  Nunjucks Templating!
+  Homepage: https://mozilla.github.io/nunjucks/
+  Docs: https://mozilla.github.io/nunjucks/api.html
+#}
+
+{% extends 'layouts/application.html' %}
+
+{% block content %}
+
+  <!-- start header -->
+  {% include 'components/header.njs' %}
+  <!-- start calendar -->
+  {% include 'components/calendar.njs' %}
+
+
+  <!-- start off canvas panel -->
+  {% include 'components/panel.njs' %}
+
+
+
+{% endblock %}
+
+{% block pagescripts %}
+<script type="text/javascript">
+  $(document).ready(function() {
+    $(window).resize(function() {
+      if ($(window).width() < 920) {
+        var panelExample = $('#panel-example').scotchPanel({
+            containerSelector: 'body', // Make this appear on the entire screen
+            direction: 'left', // Make it toggle in from the left
+            duration: 300, // Speed in ms how fast you want it to be
+            transition: 'ease', // CSS3 transition type: linear, ease, ease-in, ease-out, ease-in-out, cubic-bezier(P1x,P1y,P2x,P2y)
+            clickSelector: '.toggle-panel', // Enables toggling when clicking elements of this class
+            distanceX: '70%', // Size fo the toggle
+            enableEscapeKey: true // Clicking Esc will close the panel
+        });
+          console.log('mobile');
+      } else {
+          console.log('no mobile');
+      }
+    }).resize();
+    if(screen.width < 800 /*some amount that should be a mobile's phone screen width probably*/ ){
+      $('div.container').addClass('container-fluid').removeClass('container');
+    }
+  });
+</script>
+{% endblock %}
